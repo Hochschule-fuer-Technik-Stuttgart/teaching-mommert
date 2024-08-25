@@ -7,3 +7,4 @@ This directory contains implementations for different regression tasks.
 This is an introductory notebook, featuring different traditional
 machine learning methods applied to a tabular dataset.
 
+Launchers: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mommermi/hft-teaching/main?labpath=regression%2Fcalifornia_housing%2Fcalifornia_housing.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/mommermi/hft-teaching/blob/main/regression/california_housing/california_housing.ipynb)
