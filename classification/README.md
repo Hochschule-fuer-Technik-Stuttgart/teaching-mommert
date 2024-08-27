@@ -20,4 +20,4 @@ classification for land-use/land-cover classification.
 
 Experience in Python programming is required for this tutorial. 
 
-Launchers: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mommermi/hft-teaching/main?labpath=classification%2Flulc_dl%2Flulc.ipynb) | [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/mommermi/hft-teaching/blob/main/classification/lulc_dl/lulc_dl.ipynb)
+Launchers: [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/mommermi/hft-teaching/main?labpath=classification%2Flulc_dl%2Flulc.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/mommermi/hft-teaching/blob/main/classification/lulc_dl/lulc_dl.ipynb)
