@@ -1,6 +1,0 @@
-numpy
-scipy
-matplotlib
-rasterio
-scikit-learn
-ipympl

@@ -1,9 +1,0 @@
-numpy
-scipy
-matplotlib
-rasterio
-scikit-learn
-torch
-torchmetrics
-tqdm
-
