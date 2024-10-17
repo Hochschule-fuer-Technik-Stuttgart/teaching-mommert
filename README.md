@@ -1,6 +1,6 @@
-# HFT Teaching
+# HFT Teaching Repository of Michael Mommert
 
-This repository contains a collection of Jupyter Notebooks that I use in my teaching activities at the Stuttgart University of Applied Science (HFT).
+This repository contains a collection of Jupyter Notebooks that is used by Michael Mommert in his teaching activities at the Stuttgart University of Applied Science (HFT).
 
 The notebooks are optimized for running them in cloud computing
 environments such as Binder or Google Colab (launchers are provided
