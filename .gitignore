@@ -1,6 +1,10 @@
 *~
 **/data/
+**/runs/
+**/cars_in_stuttgart/
 *zip
 *tar.gz
 ben-ge*
 *pth
+*pt
+*yaml
