@@ -25,6 +25,7 @@ Introductory Notebooks for learning the Python programming language.
 
 * **Numpy and Matplotlib**: A more detailed introduction into the Numpy and Matplotlib modules. *Interactivity*: low. *Prequisites*: basic Python <br>[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Hochschule-fuer-Technik-Stuttgart/teaching-mommert/main?labpath=python%2Fnumpy_matplotlib%2Fnumpy_matplotlib.ipynb)  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/Hochschule-fuer-Technik-Stuttgart/teaching-mommert/blob/main/python/numpy_matplotlib/numpy_matplotlib.ipynb) 
 
+* **Pandas**: An introduction into Pandas module for data processing and analysis. *Interactivity*: low. *Prequisites*: basic Python <br>[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Hochschule-fuer-Technik-Stuttgart/teaching-mommert/main?labpath=python%2Fpandas%2Fpandas.ipynb)  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/Hochschule-fuer-Technik-Stuttgart/teaching-mommert/blob/main/python/pandas/pandas.ipynb) 
 
 
 ### Remote Sensing
