@@ -2,7 +2,7 @@
 
 This repository contains a collection of Jupyter Notebooks that is used by [Michael Mommert](https://mommermi.github.io/) in his teaching activities at the [Stuttgart University of Applied Science (HFT)](https://www.hft-stuttgart.com/).
 
-The notebooks are optimized for running them in cloud computing
+The notebooks are optimized for running in the [bwJupyter](https://www.bwjupyter.de/english/index.php) cloud environment but may also be run in other cloud computing
 environments such as Binder or Google Colab (launchers are provided
 for your convenience). Feel free to use and share these notebooks for
 your own learning or teaching activities.
@@ -11,73 +11,94 @@ your own learning or teaching activities.
 
 Notebooks are loosely ordered by the following topics. 
 
-### Data Processing
-
-Noteboks related to the processing of different data modalities.
-
-* **Feature Extraction**: An interactive Notebook introducing different feature extraction techniques for different data modalities. *Interactivity*: high, *Prerequisites*: some experience with Python <br>[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Hochschule-fuer-Technik-Stuttgart/teaching-mommert/main?labpath=data_processing%2Ffeature_extraction%2Ffeature_extraction.ipynb)  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/Hochschule-fuer-Technik-Stuttgart/teaching-mommert/blob/main/data_processing/feature_extraction/feature_extraction.ipynb)
-
 ### Python
 
 Introductory Notebooks for learning the Python programming language.
 
-* **Basics**: A general introduction into the basics of the the Python programming language. *Interactivity*: low. *Prequisites*: None <br>[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Hochschule-fuer-Technik-Stuttgart/teaching-mommert/main?labpath=python%2Fbasics%2Fbasics.ipynb)  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/Hochschule-fuer-Technik-Stuttgart/teaching-mommert/blob/main/python/basics/basics.ipynb)
+* **Basics**: A general introduction into the basics of the the Python programming language. *Interactivity*: low. *Prequisites*: None <br>[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Hochschule-fuer-Technik-Stuttgart/teaching-mommert/main?labpath=python%2Fbasics%2Fpython_basics.ipynb)  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/Hochschule-fuer-Technik-Stuttgart/teaching-mommert/blob/main/python/basics/python_basics.ipynb)
 
-* **Numpy and Matplotlib**: A more detailed introduction into the Numpy and Matplotlib modules. *Interactivity*: low. *Prequisites*: basic Python <br>[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Hochschule-fuer-Technik-Stuttgart/teaching-mommert/main?labpath=python%2Fnumpy_matplotlib%2Fnumpy_matplotlib.ipynb)  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/Hochschule-fuer-Technik-Stuttgart/teaching-mommert/blob/main/python/numpy_matplotlib/numpy_matplotlib.ipynb) 
+* **Numpy and Matplotlib**: A more detailed introduction into the Numpy and Matplotlib modules. *Interactivity*: low. *Prequisites*: basic Python <br>[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Hochschule-fuer-Technik-Stuttgart/teaching-mommert/main?labpath=python%2Fnumpy-matplotlib%2Fpython_numpy-matplotlib.ipynb)  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/Hochschule-fuer-Technik-Stuttgart/teaching-mommert/blob/main/python/numpy-matplotlib/python_numpy-matplotlib.ipynb) 
 
-* **Pandas**: An introduction into Pandas module for data processing and analysis. *Interactivity*: low. *Prequisites*: basic Python <br>[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Hochschule-fuer-Technik-Stuttgart/teaching-mommert/main?labpath=python%2Fpandas%2Fpandas.ipynb)  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/Hochschule-fuer-Technik-Stuttgart/teaching-mommert/blob/main/python/pandas/pandas.ipynb) 
+* **Pandas**: An introduction into Pandas module for data processing and analysis. *Interactivity*: low. *Prequisites*: basic Python <br>[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Hochschule-fuer-Technik-Stuttgart/teaching-mommert/main?labpath=python%2Fpandas%2Fpython_pandas.ipynb)  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/Hochschule-fuer-Technik-Stuttgart/teaching-mommert/blob/main/python/pandas/python_pandas.ipynb) 
 
+
+### Data Processing
+
+Noteboks related to the processing of different data modalities.
+
+* **Feature Extraction**: An interactive Notebook introducing different feature extraction techniques for different data modalities. *Interactivity*: high, *Prerequisites*: some experience with Python <br>[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Hochschule-fuer-Technik-Stuttgart/teaching-mommert/main?labpath=dataprocessing%2Ffeatureextraction%2Fdataprocessing_featureextraction.ipynb)  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/Hochschule-fuer-Technik-Stuttgart/teaching-mommert/blob/main/dataprocessing/featureextraction/dataprocessing_featureextraction.ipynb)
+
+
+### Clustering
+
+Notebooks related to different clustering applications.
+
+* **Clustering and PCA with sklearn**: A brief introduction into unsupervised learning methods such as clustering and Principal Component Analysis.
+*Interactivity*: medium. *Prerequisites*: Numpy experience. <br>[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Hochschule-fuer-Technik-Stuttgart/teaching-mommert/main?labpath=clustering%2Fclustering-pca%2Fclustering_clustering-pca.ipynb)  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/Hochschule-fuer-Technik-Stuttgart/teaching-mommert/blob/main/clustering/clustering-pca/clustering_clustering-pca.ipynb)
+
+* **Clustering and Segmentation for Sentinel-2 Satellite Imagery**: This example contains segmentation examples based on k-Means clustering and SLIC for a small Sentinel-2 multispectral dataset. *Interactivity*: medium. *Prerequisites*: some experience with Python. <br>[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Hochschule-fuer-Technik-Stuttgart/teaching-mommert/main?labpath=clustering%2Fkmeans-slic%2Fsentinel-2%2Fclustering_kmeans-slic_sentinel-2.ipynb)  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/Hochschule-fuer-Technik-Stuttgart/teaching-mommert/blob/main/clustering/kmeans-slic/sentinel-2/clustering_kmeans-slic_sentinel-2.ipynb)
+
+
+### Machine Learning Concepts
+
+Introductions to different supervised learning concepts.
+
+* **Preparing Data for Supervised Learning**: This Notebook serves as an interactive worksheet for preparing a dataset for use in a machine learning model. It will guide you through the steps required to use a dataset in a supervised learning setup. *Interactivity*: high. *Prerequisites*: Numpy experience. <br>[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Hochschule-fuer-Technik-Stuttgart/teaching-mommert/main?labpath=mlconcepts%2Fdatapreparation%2Fmlconcepts_datapreparation.ipynb)  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/hft-teaching/blob/main/mlconcepts/datapreparation/mlconcepts_datapreparation.ipynb)
+
+* **Full Supervised Learning Pipeline**: This Notebook combines all the pieces together to perform a classification task with scikit-learn. *Interactivity*: low. *Prerequisites*: some experience with Python. <br>[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Hochschule-fuer-Technik-Stuttgart/teaching-mommert/main?labpath=mlconcepts%2Fslpipeline%2Fmlconcepts_slpipeline.ipynb)  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/Hochschule-fuer-Technik-Stuttgart/teaching-mommert/blob/main/mlconcepts/slpipeline/mlconcepts_slpipeline.ipynb)
+
+* **Data Labeling**: This tutorial introduces the data labeling process for multiband imaging data. The data are used for a pixel-wise classification of Sentinel-2 data. *Interactivity*: medium. *Prerequisites*: some experience with Python and familiarity with the "Pixel-wise classification with Machine Learning"-Notebook. <br>[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Hochschule-fuer-Technik-Stuttgart/teaching-mommert/main?labpath=mlconcepts%2Flabeling%2Fmlconcepts_labeling.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/Hochschule-fuer-Technik-Stuttgart/teaching-mommert/blob/main/mlconcepts/labeling/mlconcepts_labeling.ipynb)
+
+* **Data Augmentations**: Building on the "Semantic Segmentation of Sentinel-2 Images with a UNet"-Notebook, this Notebook introduces data augmentations and experiments with a few simple transformations. *Interactivity*: medium. *Prerequisites*: experience with Python and semantic segmentation using a UNet. <br>[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Hochschule-fuer-Technik-Stuttgart/teaching-mommert/main?labpath=mlconcepts%2Fdataaugmentations%2Fmlconcepts_dataaugmentations.ipynb)  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/Hochschule-fuer-Technik-Stuttgart/teaching-mommert/blob/main/mlconcepts/dataaugmentations/mlconcepts_dataaugmentations.ipynb)
+
+* **Transfer Learning**: Building on the "Image Classification with Convolutional Neural Networks"-Notebook, this Notebook introduces the concept of transfer learning. *Interactivity*: low. *Prerequisites*: experience with Python and semantic segmentation using a UNet. <br>[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Hochschule-fuer-Technik-Stuttgart/teaching-mommert/main?labpath=mlconcepts%2Ftransferlearning%2Fmlconcepts_transferlearning.ipynb)  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/Hochschule-fuer-Technik-Stuttgart/teaching-mommert/blob/main/mlconcepts/transferlearning/mlconcepts_transferlearning.ipynb)
+
+
+### Regression
+
+Notebooks related to regression tasks.
+
+* **Regression on the California Housing Dataset**: This is an introductory notebook, featuring different traditional machine learning methods applied to a tabular dataset. *Interactivity*: medium. *Prerequisites*: some experience with Python. <br>[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Hochschule-fuer-Technik-Stuttgart/teaching-mommert/main?labpath=regression%2Fml%2Fcaliforniahousing%2Fregression_ml_californiahousing.ipynb)  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/Hochschule-fuer-Technik-Stuttgart/teaching-mommert/blob/main/regression/ml/californiahousing/regression_ml_californiahousing.ipynb)
+
+
+### Pixel-wise Classification
+
+Notebooks related to pixel-wise classification tasks.
+
+* **Pixel-wise Classification with Machine Learning**: This example showcases the use of traditional machine learning methods
+for pixel-wise land-use/land-cover classification. Simple data annotation by hand, as well as Maximum likelihood estimation and k-nearest neighbors methods are introduced for this purpose. *Interactivity*: medium. *Prerequisites*: some experience with Python. <br>[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Hochschule-fuer-Technik-Stuttgart/teaching-mommert/main?labpath=classification%2Fpixel-wise%2Fml%2sentinel-2%2Fclassification_pixel-wise_ml_sentinel-2.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/Hochschule-fuer-Technik-Stuttgart/teaching-mommert/blob/main/classification/pixel-wise/ml/sentinel-2/classification_pixel-wise_ml_sentinel-2.ipynb)
+
+* **Pixel-wise Classification with a Multilayer Perceptron**: This tutorial introduces the use of Multilayer Perceptrons for pixel-wise classification for land-use/land-cover classification. *Interactivity*: low. *Prerequisites*: some experience with Python. <br>[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Hochschule-fuer-Technik-Stuttgart/teaching-mommert/main?labpath=classification%2Fpixel-wise%2Fmlp%2Fsentinel-2%2Fclassification_pixel-wise_mlp_sentinel-2.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/Hochschule-fuer-Technik-Stuttgart/teaching-mommert/blob/main/classification/pixel-wise/mlp/sentinel-2/classification_pixel-wise_mlp_sentinel-2.ipynb)
+
+
+### Image-wise Classification
+
+Notebooks related to image classification tasks.
+
+* **Image Classification with a Multilayer Perceptron**: In this Notebook we build a Multilayer Perceptron from scratch using Pytorch and train it on a simple image classification task based on the FashionMNIST dataset.  *Interactivity*: low. *Prerequisites*: some experience with Python. <br>[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Hochschule-fuer-Technik-Stuttgart/teaching-mommert/main?labpath=classification%2Fimage-wise%2Fmlp%2Ffashionmnist%2Fclassification_image-wise_mlp_fashionmnist.ipynb)  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/Hochschule-fuer-Technik-Stuttgart/teaching-mommert/blob/main/classification/image-wise/mlp/fashionmnist/classification_image-wise_mlp_fashionmnist.ipynb)
+
+
+* **LULC Classification with a Convolutional Neural Network**: This example introduces the use of Convolutional Neural Networks for the task of image classification. *Interactivity*: low. *Prerequisites*: some experience with Python, familiarity with the "Pxel-wise classification using machine learning"-Notebook would be useful. <br>[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Hochschule-fuer-Technik-Stuttgart/teaching-mommert/main?labpath=classification%2Fimage-wise%2Fcnn%2Fsentinel-2%2Fclassification_image-wise_cnn_sentinel-2.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/Hochschule-fuer-Technik-Stuttgart/teaching-mommert/blob/main/classification/image-wise/cnn/sentinel-2/classification_image-wise_cnn_sentinel-2.ipynb)
+
+
+### Semantic Segmentation
+
+Notebooks related to semantic segmentation tasks.
+
+* **Semantic Segmentation of Sentinel-2 Images with a UNet**: This Notebook introduces the workflow for supervised learning with a UNet architecture available in Pytorch. We will us dense labels available in the *ben-ge-800* dataset for this task. *Interactivity*: low. *Prerequisites*: some experience with Python and familiarity with the "Pixel-wise Classification with a Multilayer Perceptron for Sentinel-2 Satellite Imagery"-Notebook. <br>[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Hochschule-fuer-Technik-Stuttgart/teaching-mommert/main?labpath=segmentation%2Funet%2Fsentinel-2%2Fsegmentation_unet_sentinel-2.ipynb)  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/Hochschule-fuer-Technik-Stuttgart/teaching-mommert/blob/main/segmentation/unet/sentinel-2/segmentation_unet_sentinel-2.ipynb)
+
+
+### Object Detection
+
+Notebooks related to object detection tasks.
+
+* **Object Detection with YOLO for Aerial Imagery**: This Notebook introduces object detection using YOLO for aerial imagery. We will detect cars from aerial imagery of the city of Stuttgart. *Interactivity*: low. *Prerequisites*: some experience with Python. <br>[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Hochschule-fuer-Technik-Stuttgart/teaching-mommert/main?labpath=objectdetection%2Fyolo%2aerialimagery%2Fobjectdetection_yolo_aerialimagery.ipynb)  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/Hochschule-fuer-Technik-Stuttgart/teaching-mommert/blob/main/objectdetection/yolo/aerialimagery/objectdetection_yolo_aerialimagery.ipynb)
 
 ### Remote Sensing
 
-Notebooks related to remote sensing activities and tasks.
+Notebooks related to general remote sensing tasks.
 
-* **LULC Classification with Machine Learning**: This example showcases the use of traditional machine learning methods
-for pixel-wise land-use/land-cover classification. Simple data annotation by hand, as well as Maximum likelihood estimation and k-nearest neighbors methods are introduced for this purpose. *Interactivity*: medium. *Prerequisites*: some experience with Python. <br>[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Hochschule-fuer-Technik-Stuttgart/teaching-mommert/main?labpath=remote_sensing%2Fclassification%2Flulc_ml%2Flulc_ml.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/Hochschule-fuer-Technik-Stuttgart/teaching-mommert/blob/main/remote_sensing/classification/lulc_ml/lulc_ml.ipynb)
-
-* **LULC Classification with Convolutional Neural Networks**: This example introduces the use of Convolutional Neural Networks for the task of image classification. *Interactivity*: low. *Prerequisites*: some experience with Python, familiarity with LULC machine learning Notebook useful. <br>[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Hochschule-fuer-Technik-Stuttgart/teaching-mommert/main?labpath=remote_sensing%2Fclassification%2Flulc_cnn%2Flulc_cnn.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/Hochschule-fuer-Technik-Stuttgart/teaching-mommert/blob/main/remote_sensing/classification/lulc_cnn/lulc_cnn.ipynb)
-
-
-
-* **LULC Classification with Multilayer Perceptrons**: This tutorial introduces the use of Multilayer Perceptrons for pixel-wise classification for land-use/land-cover classification. *Interactivity*: low. *Prerequisites*: some experience with Python. <br>[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Hochschule-fuer-Technik-Stuttgart/teaching-mommert/main?labpath=remote_sensing%2Fclassification%2Flulc_dl%2Flulc_dl.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/Hochschule-fuer-Technik-Stuttgart/teaching-mommert/blob/main/remote_sensing/classification/lulc_dl/lulc_dl.ipynb)
-
-* **LULC Data Labeling and Classification**: This tutorial introduces the data labeling process for multiband imaging data. The data are used for a pixel-wise classification of Sentinel-2 data. *Interactivity*: medium. *Prerequisites*: some experience with Python. <br>[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Hochschule-fuer-Technik-Stuttgart/teaching-mommert/main?labpath=remote_sensing%2Fclassification%2Flulc_labeling%2Flulc_labeling.ipynb) [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/Hochschule-fuer-Technik-Stuttgart/teaching-mommert/blob/main/remote_sensing/classification/lulc_labeling/lulc_labeling.ipynb)
-
-* **Regression on the California Housing Dataset**: This is an introductory notebook, featuring different traditional machine learning methods applied to a tabular dataset. *Interactivity*: medium. *Prerequisites*: some experience with Python. <br>[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Hochschule-fuer-Technik-Stuttgart/teaching-mommert/main?labpath=remote_sensing%2Fregression%2Fcalifornia_housing%2Fcalifornia_housing.ipynb)  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/Hochschule-fuer-Technik-Stuttgart/teaching-mommert/blob/main/remote_sensing/regression/california_housing/california_housing.ipynb)
-
-* **Unsupervised Segmentation of Sentinel-2 Images**: This example contains segmentation examples based on k-Means clustering and SLIC for a small Sentinel-2 multispectral dataset. *Interactivity*: medium. *Prerequisites*: some experience with Python. <br>[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Hochschule-fuer-Technik-Stuttgart/teaching-mommert/main?labpath=remote_sensing%2Fsegmentation%2Fkmeans_slic%2Fkmeans_slic.ipynb)  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/Hochschule-fuer-Technik-Stuttgart/teaching-mommert/blob/main/remote_sensing/segmentation/kmeans_slic/kmeans_slic.ipynb)
-
-* **LULC Segmentation of Sentinel-2 Images with a UNet**: This Notebook introduces the workflow for supervised learning with a UNet architecture available in Pytorch. We will us dense labels available in the *ben-ge-800* dataset for this task. *Interactivity*: low. *Prerequisites*: some experience with Python. <br>[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Hochschule-fuer-Technik-Stuttgart/teaching-mommert/main?labpath=remote_sensing%2Fsegmentation%2Flulc_unet%2Flulc_unet.ipynb)  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/Hochschule-fuer-Technik-Stuttgart/teaching-mommert/blob/main/remote_sensing/segmentation/lulc_unet/lulc_unet.ipynb)
-
-* **Data Augmentations for LULC Segmentation**: Building on the "LULC Segmentation of Sentinel-2 Images with a UNet"-Notebook, this Notebook introduces data augmentations and experiments with a few simple transformations. *Interactivity*: medium. *Prerequisites*: experience with Python and semantic segmentation using a UNet. <br>[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Hochschule-fuer-Technik-Stuttgart/teaching-mommert/main?labpath=remote_sensing%2Fsegmentation%2Flulc_unet_dataaugmentations%2Flulc_unet_dataaugmentations.ipynb)  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/Hochschule-fuer-Technik-Stuttgart/teaching-mommert/blob/main/remote_sensing/segmentation/lulc_unet_dataaugmentations/lulc_unet_dataaugmentations.ipynb)
-
-* **Object Detection with YOLO for Aerial Imagery**: This Notebook introduces object detection using YOLO for aerial imagery. We will detect cars from aerial imagery of the city of Stuttgart. *Interactivity*: low. *Prerequisites*: some experience with Python. <br>[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Hochschule-fuer-Technik-Stuttgart/teaching-mommert/main?labpath=remote_sensing%2Fobject_detection%2Fyolo%2Fyolo.ipynb)  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/Hochschule-fuer-Technik-Stuttgart/teaching-mommert/blob/main/remote_sensing/object_detection/yolo/yolo.ipynb)
-
-* **Thermal Imaging with flyr**: [Flyr](https://pypi.org/project/flyr/) is a library for extracting thermal data from FLIR images written fully in Python. We use this library to read in, modify and analyse thermograms. *Interactivity*: medium. *Prerequisites*: some experience with Python. <br>[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Hochschule-fuer-Technik-Stuttgart/teaching-mommert/main?labpath=remote_sensing%2fthermal%2Fthermal_imaging_flyr%2Fthermal_imaging_flyr.ipynb)  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/Hochschule-fuer-Technik-Stuttgart/teaching-mommert/blob/main/remote_sensing/thermal/thermal_imaging_flyr/thermal_imaging_flyr.ipynb)
-
-
-
-### Supervised Learning
-
-Introduction to supervised learning concepts and methods.
-
-
-* **Preparing Data for Supervised Learning**: This Notebook serves as an interactive worksheet for preparing a dataset for use in a machine learning model. It will guide you through the steps required to use a dataset in a supervised learning setup. *Interactivity*: high. *Prerequisites*: Numpy experience. <br>[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Hochschule-fuer-Technik-Stuttgart/teaching-mommert/main?labpath=supervised_learning%2Fpreparation%2Fsl_preparation.ipynb)  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/hft-teaching/blob/main/supervised_learning/preparation/sl_preparation.ipynb)
-
-* **Full Supervised Learning Pipeline**: This Notebook combines all the pieces together to perform a classification task with scikit-learn. *Interactivity*: low. *Prerequisites*: some experience with Python. <br>[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Hochschule-fuer-Technik-Stuttgart/teaching-mommert/main?labpath=supervised_learning%2Fpipeline%2Fsl_pipeline.ipynb)  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/Hochschule-fuer-Technik-Stuttgart/teaching-mommert/blob/main/supervised_learning/pipeline/sl_pipeline.ipynb)
-
-* **Image Classification with a Multilayer Perceptron**: In this Notebook we build a Multilayer Perceptron from scratch using Pytorch and train it on a simple image classification task.  *Interactivity*: low. *Prerequisites*: some experience with Python. <br>[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Hochschule-fuer-Technik-Stuttgart/teaching-mommert/main?labpath=supervised_learning%2Fmlp%2Fmlp.ipynb)  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/Hochschule-fuer-Technik-Stuttgart/teaching-mommert/blob/main/supervised_learning/mlp/mlp.ipynb)
-
-* **Image Classification with a Convolutional Neural Network**: In this Notebook we build a convolutional neural network from scratch using Pytorch and train it on a simple image classification task.  *Interactivity*: low. *Prerequisites*: some experience with Python. <br>[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Hochschule-fuer-Technik-Stuttgart/teaching-mommert/main?labpath=supervised_learning%2Fcnn%2Fcnn.ipynb)  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/Hochschule-fuer-Technik-Stuttgart/teaching-mommert/blob/main/supervised_learning/cnn/cnn.ipynb)
-
-
-### Unsupervised Learning
-
-Introduction to supervised learning concepts and methods.
-
-* **Clustering and PCA**: A brief introduction into unsupervised learning methods such as clustering and Principal Component Analysis.
-*Interactivity*: medium. *Prerequisites*: Numpy experience. <br>[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Hochschule-fuer-Technik-Stuttgart/teaching-mommert/main?labpath=unsupervised_learning%2Fclustering_pca%2Fclustering_pca.ipynb)  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/Hochschule-fuer-Technik-Stuttgart/teaching-mommert/blob/main/unsupervised_learning/clustering_pca/clustering_pca.ipynb)
-
+* **Thermal Imaging with flyr**: [Flyr](https://pypi.org/project/flyr/) is a library for extracting thermal data from FLIR images written fully in Python. We use this library to read in, modify and analyse thermograms. *Interactivity*: medium. *Prerequisites*: some experience with Python. <br>[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Hochschule-fuer-Technik-Stuttgart/teaching-mommert/main?labpath=remotesensing%2Fthermal%2Fflyr%2Fremotesensing_thermal_flyr.ipynb)  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/Hochschule-fuer-Technik-Stuttgart/teaching-mommert/blob/main/remotesensing/thermal/flyr/remotesensing_thermal_flyr.ipynb)
 
 
 ## License
