@@ -87,6 +87,9 @@ Notebooks related to semantic segmentation tasks.
 
 * **Semantic Segmentation of Sentinel-2 Images with a UNet**: This Notebook introduces the workflow for supervised learning with a UNet architecture available in Pytorch. We will us dense labels available in the *ben-ge-800* dataset for this task. *Interactivity*: low. *Prerequisites*: some experience with Python and familiarity with the "Pixel-wise Classification with a Multilayer Perceptron for Sentinel-2 Satellite Imagery"-Notebook; running this Notebook requires access to a GPU! <br>[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Hochschule-fuer-Technik-Stuttgart/teaching-mommert/main?labpath=segmentation%2Funet%2Fsentinel-2%2Fsegmentation_unet_sentinel-2.ipynb)  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/Hochschule-fuer-Technik-Stuttgart/teaching-mommert/blob/main/segmentation/unet/sentinel-2/segmentation_unet_sentinel-2.ipynb)
 
+* **Building Extraction with a UNet for Aerial Imagery**: This Notebook showcases the use of a UNet for building footprint extraction. The Notebook features the full workflow from combining data to training the model to inference across the dataset. *Interactivity*: low. *Prerequisites*: some experience with Python and familiarity with the "Semantic Segmentation of Sentinel-2 Images with a UNet"-Notebook; running this Notebook requires access to a GPU! <br>[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Hochschule-fuer-Technik-Stuttgart/teaching-mommert/main?labpath=segmentation%2Funet%2Faerialimagery%2Fsegmentation_unet_aerialimagery.ipynb)  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/Hochschule-fuer-Technik-Stuttgart/teaching-mommert/blob/main/segmentation/unet/aerialimagery/segmentation_unet_aerialimagery.ipynb)
+
+
 
 ### Object Detection
 
