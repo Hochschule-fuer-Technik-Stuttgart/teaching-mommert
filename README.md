@@ -103,6 +103,7 @@ Notebooks related to general remote sensing tasks.
 
 * **Thermal Imaging with flyr**: [Flyr](https://pypi.org/project/flyr/) is a library for extracting thermal data from FLIR images written fully in Python. We use this library to read in, modify and analyse thermograms. *Interactivity*: medium. *Prerequisites*: some experience with Python. <br>[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Hochschule-fuer-Technik-Stuttgart/teaching-mommert/main?labpath=remotesensing%2Fthermal%2Fflyr%2Fremotesensing_thermal_flyr.ipynb)  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/Hochschule-fuer-Technik-Stuttgart/teaching-mommert/blob/main/remotesensing/thermal/flyr/remotesensing_thermal_flyr.ipynb)
 
+* **Linear Unmixing for Sentinel-2 Imagery**: A brief introduction into linear unmixing for multispectral data. *Interactivity*: medium. *Prerequisites*: some experience with Python. <br>[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Hochschule-fuer-Technik-Stuttgart/teaching-mommert/main?labpath=remotesensing%2Flinearunmixing%2Fremotesensing_linearunmixing.ipynb)  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/Hochschule-fuer-Technik-Stuttgart/teaching-mommert/blob/main/remotesensing/linearunmixing/remotesensing_linearunmixing.ipynb)
 
 ## License
 
