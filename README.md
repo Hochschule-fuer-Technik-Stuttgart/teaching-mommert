@@ -105,6 +105,9 @@ Notebooks related to general remote sensing tasks.
 
 * **Linear Unmixing for Sentinel-2 Imagery**: A brief introduction into linear unmixing for multispectral data. *Interactivity*: medium. *Prerequisites*: some experience with Python. <br>[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Hochschule-fuer-Technik-Stuttgart/teaching-mommert/main?labpath=remotesensing%2Flinearunmixing%2Fremotesensing_linearunmixing.ipynb)  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/Hochschule-fuer-Technik-Stuttgart/teaching-mommert/blob/main/remotesensing/linearunmixing/remotesensing_linearunmixing.ipynb)
 
+* **Copernicus Data Access with openEO**: This Notebook features a brief introduction into openEO and how it can used to download and process Copernicus data. *Interactivity*: medium. *Prerequisites*: some experience with Python. <br>[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Hochschule-fuer-Technik-Stuttgart/teaching-mommert/main?labpath=remotesensing%2Fopeneo%2Fremotesensing_openeo.ipynb)  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/Hochschule-fuer-Technik-Stuttgart/teaching-mommert/blob/main/remotesensing/openeo/remotesensing_openeo.ipynb)
+
+
 ## License
 
 All notebooks contained in this repository are provided under MIT license. 
