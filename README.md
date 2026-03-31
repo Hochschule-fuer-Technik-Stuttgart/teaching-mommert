@@ -26,6 +26,8 @@ Introductory Notebooks for learning the Python programming language.
 
 Noteboks related to the processing of different data modalities.
 
+* **Image Data Handling and Exploration**: An interactive Notebook introducing image data handling. *Interactivity*: high, *Prerequisites*: some experience with Python <br>[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Hochschule-fuer-Technik-Stuttgart/teaching-mommert/main?labpath=dataprocessing%2Fimagedata%2Fimagedata.ipynb)  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/Hochschule-fuer-Technik-Stuttgart/teaching-mommert/blob/main/dataprocessing/imagedata/imagedata.ipynb)
+
 * **Feature Extraction**: An interactive Notebook introducing different feature extraction techniques for different data modalities. *Interactivity*: high, *Prerequisites*: some experience with Python <br>[![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/Hochschule-fuer-Technik-Stuttgart/teaching-mommert/main?labpath=dataprocessing%2Ffeatureextraction%2Fdataprocessing_featureextraction.ipynb)  [![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://githubtocolab.com/Hochschule-fuer-Technik-Stuttgart/teaching-mommert/blob/main/dataprocessing/featureextraction/dataprocessing_featureextraction.ipynb)
 
 
